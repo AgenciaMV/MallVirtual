@@ -1,0 +1,52 @@
+
+    <div class="navbar navbar-dark bg-success">
+
+      <a href="#" class="sidenav-trigger" data-target="slide-out"></a>
+      <!-- <i class="material-icons">menu</i> -->
+
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons bg-success">menu</i></a>
+
+      <a [routerLink]="['tiendas']"><i class="material-icons bg-light">local_library</i></a>
+      <a [routerLink]="['notificacion']"><i class="material-icons bg-light">group</i></a>
+      <a [routerLink]="['mensaje']"><i class="material-icons bg-light">notifications</i></a>
+      <a [routerLink]="['respuesta']"><i class="material-icons bg-light">contact_mail</i></a>
+      <a [routerLink]="['perfil']"><i class="material-icons bg-light">stars</i></a>
+
+  </div>
+
+ 
+
+
+  <ul id="slide-out" class="sidenav">
+     
+      <li>
+          <div class="user-view">
+              <div class="background">
+                  <img src="../../assets/img/img_fondo.jpg">
+              </div>
+              <a href="#user"><img class="circle" src="../../assets/img/persona.jpg"></a>
+              <a href="#name"><span class="white-text name">Marcos Ulloa</span></a>
+              <a href="#email"><span class="white-text email">marcosulloamata@gmail.com</span></a>
+              <a [routerLink]="['perfil']"><i class="material-icons bg-light">stars</i></a>
+          </div>
+      </li>
+      <li><a href="#!">Categorías</a></li>
+      <li>
+          
+          <div class="divider"></div>
+      </li>
+      <li><a class="waves-effect" [routerLink]="['tiendas']"><i class="material-icons" >cloud</i>Tienda<span class="new badge">4</span></a></li>
+      <li><a class="waves-effect" [routerLink]="['bienes-raices']"><i class="material-icons" >cloud</i>Bienes Raíces</a></li>
+      <li><a class="waves-effect" [routerLink]="['carros']"><i class="material-icons" >cloud</i>Vehículos</a></li>
+      <li><a class="waves-effect" [routerLink]="['recreaciones']"><i class="material-icons" >cloud</i>Recreación</a></li>
+      <li><a class="waves-effect" [routerLink]="['comidas-bebidas']"><i class="material-icons" >cloud</i>Comidas y Bebidas</a></li>
+      <li><a class="waves-effect" [routerLink]="['transportes']"><i class="material-icons" >cloud</i>Transporte</a></li>
+      <li><a class="waves-effect" [routerLink]="['profesiones']"><i class="material-icons" >cloud</i>Profesiones u oficios</a></li>
+      <li><a class="waves-effect" [routerLink]="['reparaciones']"><i class="material-icons" >cloud</i>Mecánica Reparación</a></li>
+      <li><a class="waves-effect" [routerLink]="['deportes']"><i class="material-icons" >cloud</i>Deportes</a></li>
+      <li><a class="waves-effect" [routerLink]="['educacion']"><i class="material-icons" >cloud</i>Educación-Cursos</a></li>
+      <li><a class="waves-effect" [routerLink]="['hospedaje']"><i class="material-icons" >cloud</i>Hospedaje</a></li>
+      <li><a class="waves-effect" [routerLink]="['salud']"><i class="material-icons" >cloud</i>Salud</a></li>
+  </ul>
+
+ 
